@@ -23,7 +23,7 @@ resource "aws_s3_bucket" "bucket_for_backend"{
 
 #####variables 
 
-variable "firststring" {
+/*variable "firststring" {
 	type=string
 	default="suruchi"
 }
@@ -76,3 +76,4 @@ output "myoutputvar"{
 	sensitive=true
 	value=var.myinputvar
 }
+*/

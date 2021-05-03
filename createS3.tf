@@ -17,3 +17,7 @@ resource "aws_s3_bucket" "bucket_for_backend"{
 	}
 }
 
+resource "aws_iam_role" "AWSServiceRoleForECS" {
+  name = "AWSServiceRoleForECS"
+  assume_role_policy = "{}"
+}
